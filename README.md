@@ -6,8 +6,8 @@ You just need to have the commands `wget` and `ffmpeg` installed
 
 To use it :
 ```sh
-$ chmod +x redvid-dk.sh
-$ ./redvid-dl URL_OF_THE_POST
+$ chmod +x redvid-dl.sh
+$ ./redvid-dl.sh URL_OF_THE_POST
 ```
 
 You can also choose to download only the video or the audio with `--video` and `--audio`
