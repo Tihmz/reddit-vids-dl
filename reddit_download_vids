@@ -1,0 +1,7 @@
+on the post URL, add .json 
+  -> ex : https://www.reddit.com/r/Mikasa/comments/tjmkz3/mikasa_supremacy/
+        = https://www.reddit.com/r/Mikasa/comments/tjmkz3/mikasa_supremacy/.json
+
+search fallback_url to get the video
+  if fallback_url as quality and .mp4 (ex: https://URL/DASH_1080.mp4), then audio is https://URL/DASH_audio.mp4
+  else if fallback_url doesn't have .mp4, audio is on https://URL/audio/
