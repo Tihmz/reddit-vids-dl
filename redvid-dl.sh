@@ -16,6 +16,11 @@ if ! [ -x "$(command -v wget)" ]; then
   exit 1
 fi
 
+if ! [ -x "$(command -v ffmpeg)" ]; then
+  echo "ffmpeg command missing"
+  exit 1
+fi
+
 if [ "$#" == "0" ]; then
   help
 
